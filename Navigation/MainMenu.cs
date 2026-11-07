@@ -7,9 +7,9 @@ enum MainMenuOptions
     About
 }
 
-public class Main_Menu : Menu
+public class MainMenu : Menu
 {
-    public Main_Menu():base(null)
+    public MainMenu():base(null)
     { }
     public override void Display()
     {
@@ -25,13 +25,13 @@ public class Main_Menu : Menu
             switch (option)
             {
                 case MainMenuOptions.Play:
-                    return new Play_Menu(this);
+                    return new PlayMenu(this);
 
                 case MainMenuOptions.Settings:
-                    return new Settings_Menu(this);
+                    return new SettingsMenu(this);
 
                 case MainMenuOptions.About:
-                    return new About_Menu(this);
+                    return new AboutMenu(this);
             }
         }
 

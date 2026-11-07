@@ -1,8 +1,8 @@
 ﻿namespace Navigation;
 
-public class About_Menu : Menu
+public class AboutMenu : Menu
 {
-    public About_Menu(Menu previousMenu):base(previousMenu)
+    public AboutMenu(Menu previousMenu):base(previousMenu)
     { }
     public override void Display()
     {

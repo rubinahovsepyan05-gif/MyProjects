@@ -5,9 +5,9 @@ enum PlayMenuOptions
     SayHello = 1
 }
 
-public class Play_Menu : Menu
+public class PlayMenu : Menu
 {
-    public Play_Menu(Menu previousMenu):base(previousMenu)
+    public PlayMenu(Menu previousMenu):base(previousMenu)
     { }
     public override void Display()
     {

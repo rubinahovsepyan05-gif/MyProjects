@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Menu currentMenu = new Main_Menu();
+        Menu currentMenu = new MainMenu();
 
         while (currentMenu != null)
         {

@@ -6,9 +6,9 @@ enum SettingsMenuOptions
     VideoSettings
 }
 
-public class Settings_Menu : Menu
+public class SettingsMenu : Menu
 {
-    public Settings_Menu(Menu previousMenu):base(previousMenu)
+    public SettingsMenu(Menu previousMenu):base(previousMenu)
     { }
     public override void Display()
     {
